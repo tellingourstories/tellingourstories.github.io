@@ -1,3 +1,8 @@
 p {
-    color: green;
+    color: purple; /*vaguely sea green*/
+}
+div {
+    background-color: #54FF9F;
+    height:100px;
+    width:100px;
 }
