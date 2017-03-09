@@ -1,24 +1,26 @@
+/*Variables*/
+element {
+    --babyblue = background-color: #89cff0;
+    --lightpink = background-color: #ffb6c1;
+    --white = background-color: #ffffff;
+}
+
 p {
     color: purple; /*vaguely sea green*/
 }
 div {
-    background-color: #54FF9F;
-    //height:px;
-    width:400px;
 }
 body {
     background-color: #C6E2FF;
 }
 
 /*Classes*/
-.bannerblue {
-    background-color: #89cff0;
+.Banner {
+    background-color: var(--white);
+}
+.PersonalPage {
+    background-color: var(--lightpink);
+    //height = 200px;
+    width = 400px;
 }
 
-.bannerpink {
-    background-color: #ffb6c1;
-}
-
-.bannerwhite {
-    background-color: #ffffff;
-}
