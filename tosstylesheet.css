@@ -13,7 +13,12 @@ body {
 }
 
 /*IDs*/
-#bannerNavigation li {
+#NavigationContainer div{
+   margin: 0 auto;
+   width: 960px;
+}
+
+#bannerNavigationList li {
         list-style: none;
         display: block;
         float: left;
@@ -30,5 +35,17 @@ body {
     background-color: LightPink;
     /*height = 200px;*/
     width = 400px;
+}
+.rectangle { /*This code was lifted directly from https://webdesign.tutsplus.com/articles/how-to-create-a-modern-ribbon-banner-navigation-bar-with-pure-htmlcss3--webdesign-2728*/
+   background: #e5592e;
+   height: 62px;
+   position: relative;
+   -moz-box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+   box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+   -webkit-border-radius: 3px;
+   -moz-border-radius: 3px;
+   border-radius: 3px;
+   z-index: 500; /* the stack order: foreground */
+   margin: 3em 0;
 }
 
