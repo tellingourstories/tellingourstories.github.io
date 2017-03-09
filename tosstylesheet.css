@@ -20,7 +20,7 @@ body {
 }
 
 .PersonalPage {
-    background-color: var(--lightpink);
+    background-color: LightPink;
     /*height = 200px;*/
     width = 400px;
 }
