@@ -9,15 +9,16 @@ p {
 div {
 }
 body {
-    background-color: #C6E2FF;
+    background-color: white;
 }
 
 /*Classes*/
 .Banner {
-    background-color: white;
-    color: LightSkyBlue;
+    background-color: LightSkyBlue;
+    color: black;
     margin: 10px;
 }
+
 .PersonalPage {
     background-color: var(--lightpink);
     /*height = 200px;*/
