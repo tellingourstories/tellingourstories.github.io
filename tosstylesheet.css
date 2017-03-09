@@ -1,8 +1,8 @@
 /*Variables*/
 element {
-    --babyblue = background-color: #89cff0;
-    --lightpink = background-color: #ffb6c1;
-    --white = background-color: #ffffff;
+    --babyblue = #89cff0;
+    --lightpink = #ffb6c1;
+    --white = #ffffff;
 }
 
 p {
@@ -17,10 +17,11 @@ body {
 /*Classes*/
 .Banner {
     background-color: var(--white);
+    margin: 10px;
 }
 .PersonalPage {
     background-color: var(--lightpink);
-    //height = 200px;
+    /*height = 200px;*/
     width = 400px;
 }
 
