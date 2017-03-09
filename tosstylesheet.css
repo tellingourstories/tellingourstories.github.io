@@ -1,7 +1,7 @@
-/*Variables*/
+/*Variables
 element {
     --lightpink = #ffb6c1;
-}
+}*/
 
 p {
     color: purple; /*vaguely sea green*/
@@ -12,13 +12,20 @@ body {
     background-color: white;
 }
 
+/*IDs*/
+#bannerNavigation li {
+        list-style: none;
+        display: block;
+        float: left;
+        margin: 1em;   
+}
+
 /*Classes*/
 .Banner {
     background-color: LightSkyBlue;
     color: black;
     margin: 10px;
 }
-
 .PersonalPage {
     background-color: LightPink;
     /*height = 200px;*/
