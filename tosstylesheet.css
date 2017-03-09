@@ -1,8 +1,6 @@
 /*Variables*/
 element {
-    --babyblue = #89cff0;
     --lightpink = #ffb6c1;
-    --white = #ffffff;
 }
 
 p {
@@ -16,7 +14,8 @@ body {
 
 /*Classes*/
 .Banner {
-    background-color: var(--white);
+    background-color: white;
+    color: LightSkyBlue;
     margin: 10px;
 }
 .PersonalPage {
