@@ -6,8 +6,6 @@ element {
 p {
     color: purple; /*vaguely sea green*/
 }
-div {
-}
 body {
     background-color: white;
 }
@@ -31,6 +29,10 @@ body {
     color: black;
     margin: 10px;
 }
+.HomePageBody {
+    margin: 0 auto;
+}
+
 .PersonalPage {
     background-color: LightPink;
     /*height = 200px;*/
