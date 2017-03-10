@@ -29,6 +29,8 @@ body {
 }
 .HomePageBody {
     margin: 0 auto;
+    width: 90%;
+    text-align: left;
 }
 
 .PersonalPage {
