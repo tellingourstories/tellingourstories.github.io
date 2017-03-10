@@ -2,10 +2,6 @@
 element {
     --lightpink = #ffb6c1;
 }*/
-
-p {
-    color: purple; /*vaguely sea green*/
-}
 body {
     background-color: white;
 }
@@ -22,7 +18,9 @@ body {
         float: left;
         margin: 1em;   
 }
-
+#Debug {
+ background-color: black;   
+}
 /*Classes*/
 .Banner {
     background-color: LightSkyBlue;
